@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+
+    <style>
+        /* flex works in moving element in one direction only */
+        .container{
+              display: flex;
+              justify-content: center;
+              flex-direction: row;
+            /* this is parent class */
+        }
+
+        .box{
+             height: 100px;
+             width: 100px;
+             border: 2px solid #0a0909;
+             margin: 2px;
+             background-color: #30efef;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+</body>
+</html>
